@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position bài 1</title>
+    <style>
+        .container {
+            position: absolute;
+            background-color: rgb(153, 228, 228);
+            width: 500px;
+            height: 450px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hd {
+            color: blue;
+            font-weight: bolder;
+            font-size: xx-large;
+            text-decoration: underline;
+            margin-bottom: 20px;
+        }
+
+        img {
+            display: flex;
+            margin: auto;
+            width: 200px;
+            margin-bottom: 20px;
+        }
+
+        .ft {
+            font-size: large;
+            margin-bottom: 20px;
+        }
+
+        .price {
+            color: red;
+            font-weight: bolder;
+            font-size: larger;
+        }
+
+        .button {
+            background-color: orangered;
+            padding: 10px;
+            border-radius: 5px;
+            width: 100px;
+            color: white;
+            font-size: larger;
+            position: absolute;
+            top: 87%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .button:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <a href="index1.html">Bài 1</a> <a href="index2.html">Bài 2</a> <a href="index3.html">Bài 3</a> <a href="index4.html">Bài 4</a> <a href="index5.html">Bài 5</a> <a href="index6.html">Bài 6</a>
+    <div class="container">
+        <div class="hd">Giáo trình Tin học cơ bản</div>
+        <img src="OIP.jpg">
+        <div class="ft">Đơn giá: <span class="price">26.000đ</span></div>
+        <div class="button">Đặt mua</div>
+    </div>
+</body>
+</html>
